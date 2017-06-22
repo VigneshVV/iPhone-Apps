@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63642981EFBF8C2007ADFA6 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63642971EFBF8C2007ADFA6 /* testViewController.m */; };
 		BC543ABB1EF9260E00503CEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC543ABA1EF9260E00503CEC /* main.m */; };
 		BC543ABE1EF9260E00503CEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC543ABD1EF9260E00503CEC /* AppDelegate.m */; };
 		BC543AC11EF9260E00503CEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC543AC01EF9260E00503CEC /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B63642961EFBF8C2007ADFA6 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		B63642971EFBF8C2007ADFA6 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		BC543AB61EF9260D00503CEC /* iPhone Apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhone Apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC543ABA1EF9260E00503CEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC543ABC1EF9260E00503CEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				BC543ABD1EF9260E00503CEC /* AppDelegate.m */,
 				BC543ABF1EF9260E00503CEC /* ViewController.h */,
 				BC543AC01EF9260E00503CEC /* ViewController.m */,
+				B63642961EFBF8C2007ADFA6 /* testViewController.h */,
+				B63642971EFBF8C2007ADFA6 /* testViewController.m */,
 				BC543AC21EF9260E00503CEC /* Main.storyboard */,
 				BC543AC51EF9260E00503CEC /* Assets.xcassets */,
 				BC543AC71EF9260E00503CEC /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				BC543AC11EF9260E00503CEC /* ViewController.m in Sources */,
 				BC543ABE1EF9260E00503CEC /* AppDelegate.m in Sources */,
+				B63642981EFBF8C2007ADFA6 /* testViewController.m in Sources */,
 				BC543ABB1EF9260E00503CEC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +522,7 @@
 				BC543AE51EF9260E00503CEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC543AE61EF9260E00503CEC /* Build configuration list for PBXNativeTarget "iPhone AppsTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				BC543AE81EF9260E00503CEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC543AE91EF9260E00503CEC /* Build configuration list for PBXNativeTarget "iPhone AppsUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				BC543AEB1EF9260E00503CEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
