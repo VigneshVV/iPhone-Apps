@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextViewDelegate>
 
+- (IBAction)showButtonPressed:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *displayLabel;
+@property (weak, nonatomic) IBOutlet UITextField *texttField;
+@property (weak, nonatomic) IBOutlet UITextView *dseTextView;
 
 @end
 
